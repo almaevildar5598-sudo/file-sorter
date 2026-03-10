@@ -20,7 +20,7 @@ class FileType:
 
 # Карта типов файлов и списка расширений
 FILE_TYPE_EXTENSIONS_MAPPING: dict[str, tuple[str, ...]] = {
-    FileType.IMAGE: ("jpg", "jpeg", "png", "gif", "bmp", "svd"),
+    FileType.IMAGE: ("jpg", "jpeg", "png", "gif", "bmp", "svd", "jpif"),
     FileType.VIDEO: ("mp4", "avi", "mov", "mkv", "wmv", "mpeg"),
     FileType.AUDIO: ("mp3", "wav", "flac", "aac", "ogg"),
     FileType.DOCUMENT: ("pdf", "doc", "docx", "txt", "rtf", "odt"),
