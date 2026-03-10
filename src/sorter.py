@@ -1,4 +1,6 @@
+# pylint:disable=too-few-public-methods
 """Модуль сортировки файлов"""
+
 import time
 from pathlib import Path
 
@@ -23,6 +25,7 @@ class Sorter:
         _path_model (PathModel): модель каталога
 
     """
+
     def __init__(self, source: Path, silent: bool) -> None:
         self._source: Path = source
         self._silent: bool = silent
